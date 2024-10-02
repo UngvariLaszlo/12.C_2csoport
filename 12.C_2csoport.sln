@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teszt12.C_2csoport_UniTest", "Teszt12.C_2csoport_UniTest\Teszt12.C_2csoport_UniTest.csproj", "{940A93F4-A9B7-4461-9B22-EA209F8D4B11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kor_es_henger", "Kor_es_henger\Kor_es_henger.csproj", "{E9ABF1C9-350D-4D3F-88B1-BDD57F2E9A41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{940A93F4-A9B7-4461-9B22-EA209F8D4B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{940A93F4-A9B7-4461-9B22-EA209F8D4B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{940A93F4-A9B7-4461-9B22-EA209F8D4B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9ABF1C9-350D-4D3F-88B1-BDD57F2E9A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9ABF1C9-350D-4D3F-88B1-BDD57F2E9A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9ABF1C9-350D-4D3F-88B1-BDD57F2E9A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9ABF1C9-350D-4D3F-88B1-BDD57F2E9A41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
