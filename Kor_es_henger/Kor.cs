@@ -25,12 +25,12 @@ namespace Kor_es_henger
         } 
         private double kalkKerület(double r)
         {
-            return 2 * r * Math.PI;
+            return Math.Round( 2 * r * Math.PI,2);
         }
 
         private double kalkTerület(double r)
         {
-            return Math.Pow(r, 2) * Math.PI;
+            return Math.Round(Math.Pow(r, 2) * Math.PI,2);
         }
 
         public double GetSugar() { return this.sugar; }
