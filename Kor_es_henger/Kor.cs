@@ -6,7 +6,7 @@ using System.Threading.Tasks;
  
 namespace KörHenger
 {
-    class Kör
+    public class Kör
     {
         protected double sugar,
             terület,
