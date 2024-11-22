@@ -11,26 +11,69 @@ namespace Kor_es_henger
         static void Main(string[] args)
         {
             //1. pédány
-            Kor k1 = new Kor();
+            Kör k1 = new Kör();
             k1.SetSugar(15);
             k1.GetTerület();
             k1.GetKerület();
 
-            kiír(k1);
+           // kiír(k1);
 
             //2.pédány
 
-            Kor k2 = new Kor(58);
+            Kör k2 = new Kör(58);
             k2.GetKerület();
             k2.GetTerület();
 
-            kiír(k2);
+            //kiír(k2);
+
+
+            //1.henger
+            try
+            {
+                Henger h1 = new Henger(15, 34);
+                kiírHenger(h1);
+            }
+            catch(ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            catch (ArithmeticException e)
+            {
+                Console.WriteLine($"Aritmetikai hiba {e.Message}!");
+            }
+
+            try
+            {
+                Henger h2 = new Henger(-1, 30);
+                kiírHenger(h2);
+            }
+            catch(ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
+            
+            
+            
+            
+            
+
+
+
+
             Console.ReadKey();
         }
 
-        private static void kiír(Kor k)
+        private static void kiír(Kör k)
         {
-            Console.WriteLine($"A {k.GetSugar()} sugarú kör területe: {k.GetKerület()}, területe{k.GetTerület()}");
+            Console.WriteLine($"A {k.GetSugár()} sugarú kör területe: {k.GetKerület()}, területe{k.GetTerület()}");
+
+        }
+
+        private static void kiírHenger(Henger k)
+        {
+            Console.WriteLine($"A {k.GetSugár()} sugarú kör területe: {k.GetKerület()}, területe{k.GetTerület()}, térfogata:{k.GetTérfogat()}.");
 
         }
     }
