@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using KörHenger;
+using Kor_es_henger;
 
 namespace KorHenger_UnitTest
 {
