@@ -14,11 +14,14 @@ namespace KorHenger_UnitTest
             double sugár = 5;
             Kör kör = new Kör();
             kör.SetKerület();
-            double vártEredm = 31.4;
+            double vártEredm = 31.42;
 
             //Act - Végrehajtás
+            kör.setKerület();
+            double kapottEredm=kör.GetKerület
 
             //Assert kiértékelés
+            Assert.AreEqual(vártEredm, kapottEredm);
         }
         public void Terület_teszt()
         {
