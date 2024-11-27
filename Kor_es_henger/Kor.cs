@@ -66,7 +66,7 @@ namespace Kor_es_henger
         }
     }
  
-    class Henger : Kör
+    public class Henger : Kör
     {
         // Osztályváltozók
         private double térfogat,
