@@ -12,8 +12,7 @@ namespace KorHenger_UnitTest
         {
             //Arange - Feltételek beállítása
             double sugár = 5;
-            Kör kör = new Kör();
-            kör.SetKerület();
+            Kör kör = new Kör(sugár);
             double vártEredm = 31.42;
 
             //Act - Végrehajtás
